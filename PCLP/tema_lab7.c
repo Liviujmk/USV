@@ -1,10 +1,3 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 
 #include <stdio.h>
 
@@ -99,4 +92,28 @@ int main()
     else printf("Nr. %d nu a fost gasit", val);*/
     
     // Probleme 9/9; 
+    
+    // suplimentare
+    //1
+    /*float ma, nr=0, sma=0;
+    for(int i=0;i<n;i++){
+        if(v[i]>0){
+            nr++;
+            sma+=v[i];
+        }
+    }
+    ma = sma/nr;
+    printf("MA este %.2f", ma);*/
+    
+    //2 
+    int max = 0;
+    for(int i=0;i<n;i++){
+        if(v[i]>max) max=v[i];
+    }
+    printf("Max este pe pozitiile: ");
+    for(int i=0;i<n;i++){
+        if(v[i]==max) printf("%d, ", i);
+    }
+    
+    
 }
