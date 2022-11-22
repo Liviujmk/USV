@@ -106,14 +106,25 @@ int main()
     printf("MA este %.2f", ma);*/
     
     //2 
-    int max = 0;
+    /*int max = 0;
     for(int i=0;i<n;i++){
         if(v[i]>max) max=v[i];
     }
     printf("Max este pe pozitiile: ");
     for(int i=0;i<n;i++){
         if(v[i]==max) printf("%d, ", i);
+    }*/
+    
+    //3
+    int x[n], j=-1;
+    for(int i=0;i<n;i++){
+        if( sqrt(v[i]) * sqrt(v[i]) == v[i] )
+            x[++j] = v[i];
     }
     
+    printf("Patratele perfecte din v sunt: ");
+    for(int i=0;i<=j;i++){
+        printf("%d  ", x[i]);
+    }
     
 }
