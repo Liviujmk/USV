@@ -1,0 +1,146 @@
+#include <stdio.h>
+
+int main()
+{
+    int l,c;
+    scanf("%d%d", &l,&c);
+    int a[l][c];
+    printf("CITESTE MATRICEA: \n");
+    for(int i=0;i<l;i++)
+        for(int j=0;j<c;j++)
+            scanf("%d", &a[i][j]);
+
+    printf("\n\n");
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++)
+            printf("%d ", a[i][j]);
+        printf("\n");
+    }
+    printf("\n\n");
+    //1
+    /*printf("%d\n", a[0][0]);
+    printf("%d\n", a[l-1][c-1]);
+    for(int i=0; i<l; i++)
+        printf("%d ", a[i][c-1]);
+    printf("\n");
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++)
+            if(a[i][j]%7==0)
+                printf("%d ", a[i][j]);
+        printf("\n");
+    }
+    printf("\n");*/
+
+    //2
+    /*int s=0;
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++)
+            s+=a[i][j];
+    }
+    printf("Suma este: %d\n", s);*/
+
+    //3
+    /*int sp=0, pi=1;
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            if(a[i][j]%2==0)
+                sp+=a[i][j];
+            else
+                pi*=a[i][j];
+        }
+        printf("\n");
+    }
+    printf("Suma pare este %d , iar produsul impare este %d\n", sp, pi);*/
+
+    //4
+    /*int sp=0, pi=0;
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            if(a[i][j]>0)
+                sp++;
+            else
+                pi++;
+        }
+        printf("\n");
+    }
+    printf("Nr poz este %d , Nr neg este %d\n", sp, pi);*/
+
+    //5
+    /*for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            if(a[i][j]>=4 && a[i][j]<=9)
+                printf("%d ", a[i][j]);
+        }
+    }*/
+
+    //6
+    /*int max=0;
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            if(max < a[i][j])
+                max = a[i][j];
+        }
+    }
+    printf("%d", max);*/
+
+    //7
+    /*int valData = 5;
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            printf("%d ", a[i][j]*valData);
+        }
+        printf("\n");
+    }*/
+
+    //8
+    /*int valData = 5;
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            if(a[i][j]==valData)
+                printf("Nr %d este gasit", valData);
+        }
+        printf("\n");
+    }*/
+
+    //9
+    /*int sm=0, nrCif=0;
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            if(a[i][j]>0){
+                sm+=a[i][j];
+                nrCif++;
+            }
+        }
+        printf("\n");
+    }
+    float ma = sm/nrCif;
+    printf("%.2f", ma);*/
+
+    //10
+    /*int maxL=0, minC;
+    for(int i=0;i<l;i++){
+        minC = 99999;
+        for(int j=0;j<c;j++){
+            if(a[i][j]>maxL)
+                maxL = a[i][j];
+            if(a[j][i]<minC)
+                minC = a[j][i];
+        }
+        printf("MaxL[%d] = %d, iar MinC[%d] = %d\n", i,maxL,i,minC);
+    }*/
+
+    //11
+    for(int i=0;i<l;i++){
+        for(int j=0;j<c;j++){
+            if(i==0)
+                printf("%d", a[i][j]);
+            if(j=c-1 && (i!=l-1 && i!=0))
+                printf("%d", a[i][j]);
+            if(i==l-1)
+                printf("%d", a[i][j]);
+            if(j==0 && (i!=l-1&&i!=0))
+                printf("%d", a[i][j]);
+        }
+    }
+    return 0;
+}
