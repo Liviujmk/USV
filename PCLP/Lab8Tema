@@ -143,4 +143,54 @@ int main()
         }
     }
     return 0;
+    
+        //12
+    /*int b[l][c];
+    printf("CITESTE MATRICEA B: \n");
+    for(int i=0; i<l; i++)
+        for(int j=0; j<c; j++)
+            scanf("%d", &b[i][j]);
+
+    printf("\n\n");
+    for(int i=0; i<l; i++)
+    {
+        for(int j=0; j<c; j++)
+            printf("%d ", b[i][j]);
+        printf("\n");
+    }
+    printf("\n\n");
+
+
+    int sum[l][c];
+    printf("Suma Matricelor A si B: \n");
+    for(int i=0; i<l; i++)
+        for(int j=0; j<c; j++)
+            sum[i][j] = a[i][j] + b[i][j];
+
+    printf("\n\n");
+    for(int i=0; i<l; i++)
+    {
+        for(int j=0; j<c; j++)
+            printf("%d ", sum[i][j]);
+        printf("\n");
+    }
+    printf("\n\n");*/
+
+    //14
+    for(int i=0; i<l; i++)
+    {
+        for(int j=0; j<c; j++)
+            if(i==j)
+                printf("%d ", a[i][j]);
+        printf("\n");
+    }
+    printf("\n\n");    
+    //15
+    for(int i=0; i<l-1; i++)
+    {
+        for(int j=i+1; j<c; j++)
+                printf("%d ", a[i][j]);
+        printf("\n");
+    }
+    printf("\n\n");
 }
