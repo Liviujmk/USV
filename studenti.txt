@@ -1,0 +1,10 @@
+13,Airinei Dana,7 8 9
+26,Curic Denis,5 10 7
+44,Ignat Maria,10 9 10
+10,Iorga Bogdan,5 6 8 10 6
+100,Maxim Irina,2
+5,Manolache Tudor,9 6 3 4 5
+2,Petrescu Lucian,10 10
+1,Popescu Ioana,8 9 5 4
+4,Toma Vasile,6 2
+56,Vorobet Mihai,1 2 5
