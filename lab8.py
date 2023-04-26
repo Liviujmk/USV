@@ -10,18 +10,21 @@ def readMat(mat, file):
 def printMat(mat):
     print(mat)
 
-def calcSubMat(matrice,m):
-    sume = []
+def calcSubMat(matrice,m,file):
     n = matrice.shape[0]
+    for k in matrice:
+        file.write(str(k) + '\n')
+    file.write("Sume submatrice de ordin " + str(m) + '\n')
     for i in range(n - m + 1):
         for j in range(n - m + 1):
             submatrice = matrice[i:i+m, j:j+m]
+            for x in submatrice:
+                file.write(str(x) + '\n')
             suma = np.sum(submatrice)
-            sume.append(suma)
-    return sume
+            file.write('Suma = ' + str(suma) + '\n')
 
 def info_autor():
-    print("Autor: ChatGPT si Liviu")
+    print("Liviu")
 
 print('''
     1. Citire matrice din fisier
@@ -41,10 +44,9 @@ while True:
         case 3:
             m = int(input('Introduceti dimensiunea submatricii: '))
             matrice = np.array(mat)
-            sume = calcSubMat(matrice, m)
             file = open('sum.txt', 'wt')
-            for x in sume:
-                file.write(str(x) + ' ')
+            calcSubMat(matrice, m, file)
+
             file.close()
             print('Sumele au fost salvate in fisier')
         case 4:
