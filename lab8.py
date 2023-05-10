@@ -2,6 +2,7 @@ import numpy as np
 mat = []
 def readMat(mat, file):
     file = open(file, 'rt')
+    # reset sum.txt
     for line in file:
         mat.append([int(x) for x in line.split()])
     file.close()
@@ -24,7 +25,7 @@ def calcSubMat(matrice,m,file):
             file.write('Suma = ' + str(suma) + '\n')
 
 def info_autor():
-    print("Liviu")
+    print("Liviu si Davu")
 
 print('''
     1. Citire matrice din fisier
