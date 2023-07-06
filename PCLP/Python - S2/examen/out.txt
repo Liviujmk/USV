@@ -1,0 +1,8 @@
+Bancomatul dispune de urmatoarele bancnote:
+4 x 10
+8 x 5
+7 x 50
+4 x 100
+2 x 1
+5 x 500
+Se doreste extragerea sumei de 1075 lei 
