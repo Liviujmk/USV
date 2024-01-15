@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(void)
+int main()
 {
     myStack s;
 
@@ -10,18 +10,20 @@ int main(void)
     s + 8;
     s + 5 + 19 + 32;
 
-    cout << s << endl; // imprimarea intregii stive
+    cout << "Stiva contine: " << s << endl; // imprimarea intregii stive
 
-    cout << "Val: " << !s << endl;
+    cout << "Ultima valoare din stiva este: " << !s << endl;
 
     --s;
-    cout << "Val: " << !s << endl;
+    --s;
+
+    cout << "Ultima valoare din stiva este: " << !s << endl;
 
     // ... si alte apeluri introduse de STUDENT
 
     //s.~myStack();
 
-    cout << "DIM: " << int(s) << endl;
+    cout << "Dimensiunea stivei este: " << int(s) << endl;
 
     return 0;
 }
