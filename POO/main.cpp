@@ -1,29 +1,34 @@
-#include "stiva.h"
-
+#include <iostream>
+#include "MATRICE.h"
 using namespace std;
-
 int main()
 {
-    myStack s;
+    MATRICE m1( 4, 5, 1 );
+    m1.setMatrix();
+    /*for( int i = 0; i < 4; i++)
+        for( int j = 0; j < 5; j++ )
+            m1( i, j ) = i * 5 + j;*/
 
-    s + 1;
-    s + 8;
-    s + 5 + 19 + 32;
+    cout << "m1(2,3)=" << m1.getElement( 2, 3) << endl <<endl;
+    //cout << "m1(2,3)=" << m1( 2, 3) << endl;
 
-    cout << "Stiva contine: " << s << endl; // imprimarea intregii stive
+    m1.printMatrix();
+    //cout << m1;
 
-    cout << "Ultima valoare din stiva este: " << !s << endl;
+    MATRICE m2( m1 );
 
-    --s;
-    --s;
+    m2.multiplyMatrixWithConstant(3);
+    //m2 * 3;
 
-    cout << "Ultima valoare din stiva este: " << !s << endl;
+    m2.printMatrix();
+    //cout << "\n\n" << m2;
 
-    // ... si alte apeluri introduse de STUDENT
+    MATRICE m3( 4, 5 );
 
-    //s.~myStack();
 
-    cout << "Dimensiunea stivei este: " << int(s) << endl;
+    //m3 = m1 + m2;
 
+    m3.printMatrix();
+    //cout << "\n\n" << m3;*/
     return 0;
 }
