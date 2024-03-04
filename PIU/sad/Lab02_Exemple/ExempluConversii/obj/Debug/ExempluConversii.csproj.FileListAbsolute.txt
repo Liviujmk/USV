@@ -1,0 +1,7 @@
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ExempluConversii\bin\Debug\ExempluConversii.exe.config
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ExempluConversii\bin\Debug\ExempluConversii.exe
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ExempluConversii\bin\Debug\ExempluConversii.pdb
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ExempluConversii\obj\Debug\ExempluConversii.csproj.AssemblyReference.cache
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ExempluConversii\obj\Debug\ExempluConversii.csproj.CoreCompileInputs.cache
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ExempluConversii\obj\Debug\ExempluConversii.exe
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ExempluConversii\obj\Debug\ExempluConversii.pdb

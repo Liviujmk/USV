@@ -1,0 +1,7 @@
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ProiectClase\bin\Debug\ProiectClase.exe.config
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ProiectClase\bin\Debug\ProiectClase.exe
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ProiectClase\bin\Debug\ProiectClase.pdb
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ProiectClase\obj\Debug\ProiectClase.csproj.AssemblyReference.cache
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ProiectClase\obj\Debug\ProiectClase.csproj.CoreCompileInputs.cache
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ProiectClase\obj\Debug\ProiectClase.exe
+D:\Liviu Mit\Lab 2\Lab02_Exemple\ProiectClase\obj\Debug\ProiectClase.pdb

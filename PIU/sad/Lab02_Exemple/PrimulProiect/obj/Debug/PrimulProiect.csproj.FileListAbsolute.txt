@@ -1,0 +1,7 @@
+D:\Liviu Mit\Lab 2\Lab02_Exemple\PrimulProiect\bin\Debug\PrimulProiect.exe.config
+D:\Liviu Mit\Lab 2\Lab02_Exemple\PrimulProiect\bin\Debug\PrimulProiect.exe
+D:\Liviu Mit\Lab 2\Lab02_Exemple\PrimulProiect\bin\Debug\PrimulProiect.pdb
+D:\Liviu Mit\Lab 2\Lab02_Exemple\PrimulProiect\obj\Debug\PrimulProiect.csproj.AssemblyReference.cache
+D:\Liviu Mit\Lab 2\Lab02_Exemple\PrimulProiect\obj\Debug\PrimulProiect.csproj.CoreCompileInputs.cache
+D:\Liviu Mit\Lab 2\Lab02_Exemple\PrimulProiect\obj\Debug\PrimulProiect.exe
+D:\Liviu Mit\Lab 2\Lab02_Exemple\PrimulProiect\obj\Debug\PrimulProiect.pdb
